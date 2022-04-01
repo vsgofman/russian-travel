@@ -1,0 +1,39 @@
+.place {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-areas:
+    'title website'
+    'image text';
+  width: 100%;
+  max-width: 984px;
+  margin: 80px auto 0;
+}
+
+.place:first-child {
+  margin: 0 auto 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    max-width: 720px;
+    margin: 73px auto 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    max-width: 500px;
+    grid-template-areas:
+      'title'
+      'website'
+      'image'
+      'text';
+    margin: 50px auto 0;
+  }
+}

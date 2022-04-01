@@ -1,0 +1,10 @@
+.photo-grid__image {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 424px) {
+  .photo-grid__image {
+    padding: 0 16px 0 16px;
+  }
+}

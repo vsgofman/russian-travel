@@ -1,0 +1,32 @@
+.place__paragraph {
+  max-width: 484px;
+  margin: 26px 0 0 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.place__paragraph:first-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__paragraph {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    max-width: 352px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    max-width: 100%;
+    width: 100%;
+  }
+}

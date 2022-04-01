@@ -1,0 +1,9 @@
+.place__text {
+  align-self: start;
+}
+
+@media screen and (max-width: 424px) {
+  .place__text {
+    margin: 0 16px 0 16px;
+  }
+}
